@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/fl_root">
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap anywhere to continue"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_stream_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter stream url"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/grey"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="continue"
+            android:background="@color/darkblue"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "18721845365",
+    "project_id": "guideline-8a1ec",
+    "storage_bucket": "guideline-8a1ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18721845365:android:7ce516e63da9bd69d6483c",
+        "android_client_info": {
+          "package_name": "com.tribeone.gyrescopeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18721845365-ts3vfcavm05dahqcs01l73ovd57as1qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfcr1E0ZcLMUVH-mDnHPsZgdwW4kPfC8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18721845365-ts3vfcavm05dahqcs01l73ovd57as1qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

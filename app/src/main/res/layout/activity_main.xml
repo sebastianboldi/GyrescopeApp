@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <!--<com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        app:use_controller="false"/>-->
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.tribeone.gyrescopeapp.ui.DrawingCanvasView
+        android:id="@+id/drawingCanvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible"/>
+
+    <!--<com.tribeone.gyrescopeapp.utils.DrawSample
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>-->
+
+    <FrameLayout
+        android:id="@+id/fl_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please keep the device facing upside"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+</FrameLayout>
